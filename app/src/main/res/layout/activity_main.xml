@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+    <TextView
+        style="@style/Theme.MyChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp"
+        android:text="@string/my_chat"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextVeiwStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:lines="3"
+            android:text="@string/TextMasgOne" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/ic_baseline_done_all_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/TimeMasgSendOne"
+            android:textColor="@color/Time_Masg_Send_Color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextVeiwStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:lines="2"
+            android:text="@string/TextMasgTwo" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/ic_baseline_done_all_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/TimeMasgSendTwo"
+            android:textColor="@color/Time_Masg_Send_Color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextVeiwStyle.revers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="150dp"
+            android:lines="2"
+            android:text="@string/TextMasgThree" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TimeMasgSendThree"
+            android:textColor="@color/Time_Masg_Send_Color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextVeiwStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:lines="2"
+            android:text="@string/TextMasgFour" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/ic_baseline_done_all_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/TimeMasgSendFour"
+            android:textColor="@color/Time_Masg_Send_Color" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            style="@style/TextVeiwStyle.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/ic_baseline_mic_none_24"
+            app:tint="@color/done_all_color" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="-30dp"
+            android:rotation="-45"
+            android:src="@drawable/ic_baseline_attachment_24"
+            app:tint="@color/done_all_color" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/ic_baseline_emoji_emotions_24"
+            app:tint="@color/done_all_color" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Chat</string>
+    <string name="my_chat">My Chat</string>
+    <string name="TextMasgOne">Hi leo. whats up ??\n I need a new logo for group.</string>
+    <string name="TimeMasgSendOne">22:30</string>
+    <string name="TextMasgTwo">Simple , minimal and beauti..</string>
+    <string name="TimeMasgSendTwo">22:31</string>
+    <string name="TextMasgThree">Ok, i\'ll start next week,\n Send me documents today.</string>
+    <string name="TimeMasgSendThree">22:32</string>
+    <string name="TextMasgFour">Oh, That\'s great😍</string>
+    <string name="TimeMasgSendFour">22:33</string>
+</resources>
